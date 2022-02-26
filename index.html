@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        
+            <div>
+                <a id="gras"href="mufinicolas">Mufi Nicolas</a>
+            </div>
+            <div id="bar2">
+                <a href="obtenirundevis">Obtenir Un Devis</a> 
+                <a href="appellermaintenant">Appeller Maintenant</a> 
+                <a href="itineraire">Itinéraire</a> 
+            </div>
+        
+    </div>
+    <div class="main">
+            <div>
+                    <h1>  Mr MUFI Nicolas Ludovic</h1>
+                     <p>Programmeur à wasselonne</p>
+                    <p>3 rues des jardins Wasselonne</p>
+            </div>
+            <div>
+                    <button class=allbutton >OBTENIR UN DEVIS</button>
+            </div>
+            <br>
+            <div>
+                <img id="prog" src="img/codage-informatique.jpg" alt="un pc portable" srcset="">
+             </div>    
+                <hr>
+                <a class="accordion">MISE A JOUR</a>
+                
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                
+       <article>
+           <div>
+               <p> Publié le 20 mai 2019
+                    <br>
+                    Consultations sur RDV
+                    <br>
+                    ou
+                    <br>
+                    Horaires des consultations libres:
+                    <br>
+                    <br>
+                    Lundi et Mardi de 14h à 18h30
+                    Mercredi , Jeudi, Vendredi et Samedi de 9h à 12h
+                    <br>
+                    <br>
+
+                    Le cabinet est fermé le 1er Samedi de chaque mois ainsi que le mercredi après-midi .
+               </p>     
+           </div>
+           <div>
+               <p>
+                        Publié le 20 mai 2019
+                        <br>
+                        A partir du 01 octobre 2019 , transfert du cabinet au pole médical situé au 5 , rue du chemin de fer à Saverne
+                </p>
+            </div>
+           <div>
+
+           </div>
+       </article>
+       <hr>
+       <section id="temoignage">   
+            <h2>TEMOIGNAGE</h2>
+             <div id="mot">
+                     <div>
+                         <a href="http://"><h4>REDIGER UN AVIS</h4></a>
+                     </div>
+                     <div>
+                         <a href="http://"><h4>EN SAVOIR PLUS</h4></a>
+                     </div>
+            </div>
+       <hr>
+     </section>
+     <section id="contact">
+         <h2>NOUS CONTACTER</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.637657005414!2d7.439281743501604!3d48.63591546634421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796af59f247c687%3A0x7eb403dce68e4465!2s3%20Rue%20des%20Jardins%2C%2067310%20Wasselonne!5e0!3m2!1sen!2sfr!4v1578758386894!5m2!1sen!2sfr" width=100% height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+           <div id="contacte">
+                <div>
+                        <h3>Cordonnées</h3>
+                        <button class="allbutton">APPELLER MAINTENANT</button>
+                        <p>03 88 91 11 46</p>
+               </div>
+                <div>
+                        <h3>Adresse</h3>
+                        <a href="https://www.google.com/maps/dir/''/3+Rue+des+Jardins,+67310+Wasselonne,+France/@48.635916,7.4389335,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4796af59f247c687:0x7eb403dce68e4465!2m2!1d7.4411222!2d48.6359125" target="_blank" rel="noopener noreferrer"><button class="allbutton">ITINERAIRE</button></a>
+                            <P>3 rue des jardins</P>
+                            <p>67310 Wasselonne</p>
+                            <p>France</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <p>signaler un abus</p>
+            </div>
+            <div>
+                 <img src="img/téléchargement.jpeg" alt="copiright" srcset="">
+            </div>
+        </footer>
+        <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                      panel.style.maxHeight = null;
+                    } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                  });
+                }
+                </script>
+</body>
+</html>
